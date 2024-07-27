@@ -1,0 +1,246 @@
+#bg-cover-home {
+  /* The image used */
+  background-image: url("./assets/home.jpg");
+
+  position: relative;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-cover-services {
+  /* The image used */
+  background-image: url("./assets/images/Group/199A1530.jpg");
+
+  position: relative;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+#bg-cover-members {
+  /* The image used */
+  background-image: url(".\assets\images\Pastor\199A1931.jpg");
+
+  position: relative;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* service sections */
+.h-75vh {
+  height: auto;
+}
+
+@media (min-width: 768px) {
+  .h-75vh {
+    height: 75vh;
+  }
+}
+
+#counseling {
+  background-image: url("./assets/images/Group/199A1530.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.centeredMotion {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  /* Define width and height for the element */
+  width: auto; /* Example width */
+  height: 100px; /* Example height */
+}
+
+
+/* dividers */
+.custom-shape-divider-bottom-1721013309 {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721013309 svg {
+  position: relative;
+  display: block;
+  width: calc(118% + 1.3px);
+  height: 81px;
+}
+
+.custom-shape-divider-bottom-1721013309 .shape-fill {
+  fill: oklch(var(--b1));
+  ;
+}
+
+.custom-shape-divider-bottom-1721225416 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721225416 svg {
+  position: relative;
+  display: block;
+  width: calc(166% + 1.3px);
+  height: 60px;
+}
+
+.custom-shape-divider-bottom-1721225416 .shape-fill {
+  fill: oklch(var(--b3));
+}
+
+.custom-shape-divider-bottom-1721228000 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721228000 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 49px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1721228000 .shape-fill {
+  fill: oklch(var(--b1));
+}
+
+
+.custom-shape-divider-bottom-1721529956 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1721529956 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 154px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1721529956 .shape-fill {
+  fill: oklch(var(--b1));
+}
+
+.slant {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.slant svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.slant .shape-fill {
+  fill: oklch(var(--b1));
+}
+
+.slant-bottom {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform:rotate(180deg);
+}
+
+.slant-bottom svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+}
+
+.slant-bottom .shape-fill {
+  fill: oklch(var(--b1));
+}
+
+.slant-top-flip {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.slant-top-flip svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 92px;
+}
+
+.slant-top-flip .shape-fill {
+  fill: oklch(var(--b1));
+}
+
+.slant-bottom-flip {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform:rotate(180deg);
+}
+
+.slant-bottom-flip svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.slant-bottom-flip .shape-fill {
+  fill: oklch(var(--b1));
+}
